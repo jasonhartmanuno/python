@@ -53,8 +53,4 @@ class Television:
         else:
             display_volume = self.__volume
 
-        return (
-            f'Power = {self.__status}, '
-            f'Channel = {self.__channel}, '
-            f'Volume = {display_volume}, '
-        )
+        return f"Power = {self.__status}, Channel = {self.__channel}, Volume = {display_volume}"
